@@ -23,7 +23,7 @@ MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '!jn%trtgo)s$qckdqns^2j*giex8wf2aw41uei#k4=+xfj^wns'
-
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
